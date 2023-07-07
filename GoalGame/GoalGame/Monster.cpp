@@ -11,4 +11,8 @@ AMonster::~AMonster()
 {
 }
 
+void AMonster::Tick()
+{
+}
+
 

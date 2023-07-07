@@ -5,4 +5,6 @@ class APlayer : public AActor
 public:
 	APlayer();
 	virtual ~APlayer();
+
+	void Tick();
 };

@@ -8,3 +8,7 @@ AFloor::~AFloor()
 {
 }
 
+void AFloor::Tick()
+{
+}
+

@@ -11,6 +11,8 @@ int main()
 	//왜 포인터로 만들었을까? 간단하다. 지우는 순간을 내가 결정하기 위해서
 	//나중에 내가 Delete를 할 수 있는것은 포인터니까.
 	Engine* MyEngine = new Engine();
+	//GEngine->Run();
+	//Engine::Instance->Run();이것을 줄이기 위해 engine 헤더에서 define 했다
 
 	//이것이...
 	/*APlayer* MyPlayer = new APlayer;
